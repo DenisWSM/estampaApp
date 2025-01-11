@@ -3,47 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     
     <title>Botoes</title>
 </head>
 <body>
-    <section id="painel">
-        <div class="botoes">
-            <button id="A" class="bt" onclick="mudaLaranja();">Laranja</button>
-            <button id="B" class="bt" onclick="mudaPreto();">Preto</button>
-            <button id="C" class="bt" onclick="mudaVermelho();">Vermelho</button>
-        </div>
-        <div id="caixa">
-            <svg
-           
-            viewBox="0 0 180 180"
-            version="1.1"
-            id="svg1"
-            inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
-            sodipodi:docname="camiseta.svg"
-            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:svg="http://www.w3.org/2000/svg">
-           
-         
-             <path
-                id="camiseta"
-                style="stroke-width:2.19168;stroke-dasharray:8.7667, 2.19168, "
-                d="M 65.648698,26.043909 37.664856,32.143997 0.93068404,59.108515 22.687588,90.018949 41.280058,76.933094 V 160.5539 H 141.79221 V 78.489262 L 156.95069,89.158187 178.7076,58.247752 144.77996,32.422612 112.93628,26.877489 A 24.054368,11.241094 0 0 1 90.209876,34.511093 24.054368,11.241094 0 0 1 66.914925,26.043909 Z"
-                inkscape:export-filename="camiseta.svg"
-                inkscape:export-xdpi="96"
-                inkscape:export-ydpi="96"
-                inkscape:label="camisa" />
-         
-         </svg>
+    <div class="container">
 
-         <img src="https://deniswsm.github.io/estampaApp/susy_stampa.svg" id="estampa">
-         
+<div class="bot_estampas">
+    <p ><img src="img/batlover.jpg" alt=""><a href="#" onclick="mudaEstampa('bat')">Batman e Catwoman</a></p>
+    <p ><img src="img/dino.png" alt=""><a href="#" onclick="mudaEstampa('dino')">Jurassic Park</a></p>
+    <p ><img src="img/homem_bat.jpg" alt=""><a href="#" onclick="mudaEstampa('batman')">O homem morcego</a></p>
+    <p ><img src="img/mulher_bat.jpg" alt=""><a href="#" onclick="mudaEstampa('batgirl')">Bat Girl</a></p>
+    <p ><img src="img/won_W.jpg" alt=""><a href="#" onclick="mudaEstampa('maravilha')">A mulher Maravilha</a></p>
+   
+</div>
+<div class="modelos">
+    
+    <div class="estampa">
+        
+    </div>
+</div>
 
-        </div>
-    </section>
-    <script src="opcoes.js" type="text/javascript"></script>
+
+
+    </div>
+    <div class="botoes_sexo">
+        <p><a href="#" onclick="mudaModel(1)">Modelo Masculino</a>|<a href="#" onclick="mudaModel(2)">Modelo Feminino</a></p>
+    </div>
+    
 </body>
+<script src="js/app.js" > </script>
 </html>
